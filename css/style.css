@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.colon-1_6{
+    width: calc(100% / 6);
+}
+
+.colon-2_6{
+    width: calc((100% / 6) * 2);
+}
+
+.colon-4_6{
+    width: calc((100% / 6) * 4);
+}
+
+
+
