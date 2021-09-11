@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
 }
 
 /*************** UTILITY ******************/
@@ -18,33 +19,18 @@
     width: calc((100% / 6) * 4);
 }
 
-.btn{
-    text-decoration: none;
-    border-radius: 30px;
-    background-color: white;
-    color: black;
-    padding: 10px 20px;
+.clearfix{
+    content:"";
+    display: table;
+    clear: both;
 }
 
-.btn.btn-dark{
-    background-color: #23272a;
-    color: white;
+.float-left{
+    float:left;
 }
 
-.btn.btn-small{
-    margin-top: 10px;
+.float-right{
     float: right;
-    box-shadow: 3px 3px #00000072;
-    padding: 5px 10px;
-}
-
-/*************************************/
-.header{
-    width: 100%;
-    height: 500px;
-    background-image: url(../img/jumbo.png);
-    background-position: center;
-    background-size: cover;
 }
 
 .center-box{
@@ -52,56 +38,127 @@
     margin: auto;
 }
 
-nav{
-    height: 50px;
+.btn{
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
 }
 
-
-.logo, .main-menu, .nav-btn-conteiner{
-    float:left;
+.btn.btn-dark{
+    background-color: #23272a;
+    color: white;
+    margin-left: 25px;
 }
 
-.logo{
-    padding: 10px;
+.btn.btn-small{
+    box-shadow: 3px 3px #00000072;
+    padding: 5px 10px;
+    font-size: 14px;
 }
 
-.main-menu{
-    line-height: 50px;
+.text-align-right{
+    text-align: right;
+}
+
+.text-align-center{
     text-align: center;
 }
 
+h1{
+    padding-bottom:40px;
+    font-size: 50px;
+}
+
+
+h2{
+    padding-bottom:20px;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+
+/*************************************/
+.header{
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+nav{
+    width: 100%;
+}
+
+nav>*
+{
+    line-height: 80px;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
 .main-menu-item{
-    display: inline-block;
+    display: inline;
 }
 
 .main-menu-item-link{
     text-decoration: none;
-    list-style: none;
+    padding: 10px 10px;
     color: white;
-    padding: 0 10px;
-}
-
-.nav-btn-conteiner{
-    padding: 10px 0;
 }
 
 
 
 .hero{
-    height: 450px;
     color: white;
-    position: relative;
+    padding: 150px 0;
+    height: 100%;
 }
 
 .hero-content{
     width: 60%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
+    margin: auto;
 }
 
-.hero-content p{
-    padding: 40px 0;
+.hero-btn-conteiner{
+    padding-top: 40px;
+}
+
+.section-conteiner{
+    padding: 150px 0;
+}
+
+.section-3-img,
+.section-1-img{
+    padding-right: 30px;
+}
+
+.section-3-text-conteiner,
+.section-1-text-conteiner{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.section-2-text-conteiner{
+padding-top: 40px;
+padding-left: 20px;
+}
+
+.bg-section-4,
+.bg-section-2 {
+    background-color: #f6f6f6;    
+ }
+
+.section-2-img{
+    padding-left: 90px;
+}
+
+.section-2-text-conteiner{
+    padding-top: 20px;
+    padding-right: 0;
 }
