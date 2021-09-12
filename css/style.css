@@ -43,7 +43,7 @@
     border-radius: 20px;
     background-color: white;
     color: black;
-    padding: 10px 20px;
+    padding: 8px 20px;
     font-size: 16px;
 }
 
@@ -62,7 +62,7 @@
 
 .btn.btn-small{
     box-shadow: 3px 3px #00000072;
-    padding: 5px 10px;
+    padding: 4px 10px;
     font-size: 14px;
 }
 
@@ -98,6 +98,13 @@ h3{
     font-size: 25px;;
 }
 
+h4{
+    font-size: 20px;
+}
+
+.title-purple{
+    color: #5d6fab;
+}
 
 /*************************************/
 .header{
@@ -114,6 +121,10 @@ nav{
 nav>*
 {
     line-height: 80px;
+}
+
+.logo-conteiner{
+    display:inline-block;
 }
 
 .logo{
@@ -134,7 +145,7 @@ nav>*
 
 .hero{
     color: white;
-    padding: 150px 0;
+    padding: 100px 0;
     height: 100%;
 }
 
@@ -183,7 +194,7 @@ padding-left: 20px;
 }
 
 .section-4-img{
-    transform: translate(0, 20px);
+    transform: translate(3px, 25px) scale(0.88);
 }
 
 .bg-section-4>div{
@@ -211,6 +222,28 @@ footer{
     padding-top: 50px;
     border-bottom: 2px solid #4a5882;
     padding-bottom: 50px;
+    width: 100%;
+    font-size: 13px;
+
+}
+.footer-info{
+    padding-right: 90px;
+}
+
+.social{
+    padding-top: 20px;
+}
+
+.social-icon{
+    font-size: 30px;
+    padding-right: 20px;
+    color: white;
+}
+
+.footer-list{
+    padding-top: 10px;
+    list-style-type: none;
+    line-height: 30px;
 }
 
 .footer-bottom{
